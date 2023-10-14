@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(font/Poppins/Poppins-Regular.ttf);
+
+    font-family: 'poppins-medium';
+    src: url(font/Poppins/Poppins-Medium.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main-bg{
+    position: fixed;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.main-bg img{
+    width: 100%;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-digital-day{
+    width: 100%;
+    padding-top: 30px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo-digital-day img{
+    width: 15%;
+}
+
+.logo-digital-day h1{
+    font-family: 'poppins';
+    font-size: 40px;
+}
+
+@media(max-width:1600px){
+    .logo-digital-day h1{
+        font-size: 25px;
+    }
+}
+
+/* Content  */
+
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 8%;
+}
+
+@media(max-width:1600px){
+    .container{
+        margin-top: 10%;
+    }
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content a{
+    text-decoration: none;
+    color: #000;
+}
+
+.back-button{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.back-icon{
+    width: 25px;
+}
+
+@media(max-width:1600px){
+    .back-icon{
+        width: 14px;
+    }
+}
+
+.back-icon img{
+    width: 100%;
+}
+
+.back-button p{
+    font-family: 'poppins-medium';
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media(max-width:1600px){
+    .back-button p{
+        font-size: 20px;
+    }
+}
+
+.content-page{
+    display: flex;
+    gap: 40px;
+    margin-top: 130px;
+}
+
+@media(max-width:1600px){
+    .content-page{
+        margin-top: 80px;
+    }
+}
+
+.img-content{
+    flex: 5;
+    position: fixed;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    justify-content: start;
+}
+
+@media(max-width:1600px){
+    .img-content{
+        width: 93%;
+    }
+}
+
+.img-content img{
+    width: 50%;
+}
+
+.text-content{
+    flex: 5;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.text-content p{
+    font-family: 'poppins-medium';
+    font-weight: normal;
+    font-size: 30px;
+    width: 45%;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    margin-top: 0 !important;
+}
+
+@media(max-width:1600px){
+    .text-content p{
+        font-size: 20px;
+    }
+}
